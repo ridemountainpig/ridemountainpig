@@ -1,4 +1,4 @@
-# hello 👋🏻 I'm Yen Cheng
+# Yen Cheng 🧑🏻‍💻
 <!-- ## I'm boar rider that ride mountain pig 🐾 🐾 🐾 -->
 ```
 ┴┬┴┬／￣＼＿／￣＼
