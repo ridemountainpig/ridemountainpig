@@ -1,5 +1,5 @@
-<!-- # Yen Cheng 🧑🏻‍💻 -->
-<!-- ## I'm boar rider that ride mountain pig 🐾 🐾 🐾 -->
+# Yen Cheng 🧑🏻‍💻
+<!-- ## I'm boar rider that ride mountain pig 🐾 🐾 🐾
 ```
 ┴┬┴┬／￣＼＿／￣＼
 ┬┴┬┴▏　　▏▔▔▔▔＼
@@ -22,6 +22,7 @@
 ┴┬┴┬┴┬┴ ＼＿＿＿＼　　　　 ﹨／▔＼﹨／▔＼
 ┴┬┴┬┴┬┴┴┬┴┬┴┬┴＼　　 ∕　 ／▔﹨　／▔
 ```
+-->
 <!--
 **ridemountainpig/ridemountainpig** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
@@ -36,7 +37,9 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+<!--
 [![ridemountainpig GitHub Stats](https://github-readme-stats.vercel.app/api?username=ridemountainpig&count_private=true&show_icons=true&include_all_commits=true)](https://github.com/ridemountainpig)  
+-->
 <!--
 [![ridemountainpig Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ridemountainpig&count_private=true&show_icons=true&include_all_commits=true)](https://github.com/ridemountainpig)
 -->
