@@ -1,6 +1,7 @@
 # Yen Cheng 🧑🏻‍💻
 **🇹🇼 Developer from Taiwan**<br/>
 **☕️ Coding with coffee**<br/>
+> **Coffee ☕️ = new Coffee();**<br/>
 
 <!-- ## I'm boar rider that ride mountain pig 🐾 🐾 🐾
 ```
