@@ -1,4 +1,7 @@
 # Yen Cheng 🧑🏻‍💻
+**🇹🇼 Developer from Taiwan**<br/>
+**☕️ Coding with coffee**<br/>
+
 <!-- ## I'm boar rider that ride mountain pig 🐾 🐾 🐾
 ```
 ┴┬┴┬／￣＼＿／￣＼
