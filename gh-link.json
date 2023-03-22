@@ -1,0 +1,22 @@
+{
+  "links": [
+    {
+      "title": "GitHub",
+      "description": "My GitHub profile",
+      "url": "https://github.com/ridemountainpig",
+      "icon": "https://cdn-icons-png.flaticon.com/512/25/25231.png"
+    },
+    {
+      "title": "FCU Course Search",
+      "description": "FCU Course Search",
+      "url": "https://fcu-course-search.ridemountainpig.repl.co/",
+      "icon": "https://github.com/ridemountainpig/fcu-course-search/blob/main/static/images/FF.png"
+    },
+    {
+      "title": "MonkeyType Chrome Extension",
+      "description": "MonkeyType Chrome Extension",
+      "url": "https://chrome.google.com/webstore/detail/monkeytype-extension/ekkfdhandgcjdkdlfppjkedoaiiccdaa?hl=zh-TW",
+      "icon": "https://github.com/ridemountainpig/monkeyType-chrome-extension/blob/master/icon.png"
+    }
+  ]
+}
