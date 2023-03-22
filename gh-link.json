@@ -10,13 +10,13 @@
       "title": "FCU Course Search",
       "description": "FCU Course Search",
       "url": "https://fcu-course-search.ridemountainpig.repl.co/",
-      "icon": "https://github.com/ridemountainpig/fcu-course-search/blob/main/static/images/FF.png"
+      "icon": "https://github.com/ridemountainpig/fcu-course-search/blob/main/static/images/FF.png?raw=true"
     },
     {
       "title": "MonkeyType Chrome Extension",
       "description": "MonkeyType Chrome Extension",
       "url": "https://chrome.google.com/webstore/detail/monkeytype-extension/ekkfdhandgcjdkdlfppjkedoaiiccdaa?hl=zh-TW",
-      "icon": "https://github.com/ridemountainpig/monkeyType-chrome-extension/blob/master/icon.png"
+      "icon": "https://github.com/ridemountainpig/monkeyType-chrome-extension/blob/master/icon.png?raw=true"
     }
   ]
 }
