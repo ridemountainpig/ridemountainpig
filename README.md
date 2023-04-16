@@ -57,4 +57,9 @@ Here are some ideas to get you started:
 <!--
 [![ridemountainpig Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ridemountainpig&count_private=true&show_icons=true&include_all_commits=true)](https://github.com/ridemountainpig)
 -->
+
+<a href="https://monkeytype.com/profile/yencheng0110">
+  <img src="https://monkeytype-readme.repl.co/generate-svg/yencheng0110/nord_light" alt="My Monkeytype profile" />
+</a>
+
 ![](https://raw.githubusercontent.com/ridemountainpig/ridemountainpig/output/github-contribution-grid-snake.svg)
