@@ -1,0 +1,33 @@
+name: generate monkeytype readme svg
+
+# on:
+#   schedule:
+#     - cron: "0 */6 * * *" # every 6 hours
+#   workflow_dispatch:
+
+on:
+  push:
+    branches:
+      - monkeytype-readme
+
+
+jobs:
+  download-svg:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up environment
+      working-directory: ${{ github.workspace }}
+
+    - name: Download SVG
+      run: curl -o monkeytype-readme.svg https://monkeytype-readme.repl.co/generate-svg/yencheng0110/nord_light
+
+    - name: Commit SVG
+      run: |
+        git config --local user.email "lin0905580802@gmail.com"
+        git config --local user.name "ridemountainpig"
+        git add image.svg
+        git commit -m "Add monkeytype-readme.svg"
+        git push origin monkeytype-readme
