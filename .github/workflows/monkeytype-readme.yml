@@ -19,9 +19,7 @@ jobs:
         
       - name: Switch to monkeytype-readme branch
         run: |
-          git branch -D monkeytype-readme-output
-          git branch monkeytype-readme-output
-          git checkout monkeytype-readme-output
+          git checkout monkeytype-readme
         
       - name: Set up Node.js
         uses: actions/setup-node@v3
