@@ -14,11 +14,13 @@ jobs:
   download-svg:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
-
-      - name: Set up environment
-        working-directory: ${{ github.workspace }}
+      - name: Checkout code
+        uses: actions/checkout@v3
+        
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16.x'
 
       - name: Download SVG
         run: curl -o monkeytype-readme.svg https://monkeytype-readme.repl.co/generate-svg/yencheng0110/nord_light
