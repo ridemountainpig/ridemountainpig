@@ -31,7 +31,7 @@ jobs:
           script: |
             const fs = require('fs');
             let monkeytypeReadme = fs.readFileSync('monkeytype-readme.svg');
-            const filePath = '${{ github.workspace }}/monkeytype-readme/monkeytype-readme.svg';
+            const filePath = '${{ github.workspace }}/blob/monkeytype-readme/monkeytype-readme.svg';
             fs.writeFileSync(filePath, monkeytypeReadme);
           
       - name: Configure git
