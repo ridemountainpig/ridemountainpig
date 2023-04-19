@@ -8,7 +8,7 @@ name: generate monkeytype readme svg
 on:
   push:
     branches:
-      - monkeytype-readme
+      - main
 
 jobs:
   download-svg:
@@ -34,7 +34,7 @@ jobs:
       - name: push monkeytype-readme.svg to the monkeytype-readme-dev branch
         uses: crazy-max/ghaction-github-pages@v2.5.0
         with:
-          target_branch: monkeytype-readme-dev
+          target_branch: monkeytype-readme
           build_dir: public
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
