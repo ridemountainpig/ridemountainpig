@@ -1,0 +1,40 @@
+name: generate monkeytype readme svg
+
+# on:
+#   schedule:
+#     - cron: "0 */6 * * *" # every 6 hours
+#   workflow_dispatch:
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  download-svg:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        
+      - name: Switch to monkeytype-readme branch
+        run: |
+          git checkout monkeytype-readme
+        
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16.x'
+
+      - name: Download SVG
+        run: |
+          mkdir public
+          curl -o public/monkeytype-readme.svg https://monkeytype-readme.repl.co/generate-svg/yencheng0110/nord_light
+
+      - name: push monkeytype-readme.svg to the monkeytype-readme-dev branch
+        uses: crazy-max/ghaction-github-pages@v2.5.0
+        with:
+          target_branch: monkeytype-readme
+          build_dir: public
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
