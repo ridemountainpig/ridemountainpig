@@ -25,14 +25,14 @@ jobs:
       - name: Download SVG
         run: curl -o monkeytype-readme.svg https://monkeytype-readme.repl.co/generate-svg/yencheng0110/nord_light
 
-      - name: Update theme list 
+      - name: Update monkeytype readme svg
         uses: actions/github-script@v6
         with:
           script: |
             const fs = require('fs');
-            let monkeytype-readme = fs.readFileSync('monkeytype-readme.svg');
+            let monkeytypeReadme = fs.readFileSync('monkeytype-readme.svg');
             const filePath = '${{ github.workspace }}/monkeytype-readme/monkeytype-readme.svg';
-            fs.writeFileSync(filePath, monkeytype-readme);
+            fs.writeFileSync(filePath, monkeytypeReadme);
           
       - name: Configure git
         run: |
