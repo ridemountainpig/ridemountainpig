@@ -23,10 +23,32 @@ jobs:
       - name: Download SVG
         run: curl -o monkeytype-readme.svg https://monkeytype-readme.repl.co/generate-svg/yencheng0110/nord_light
 
-      - name: Commit SVG
+      - name: Update theme list 
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const fs = require('fs');
+            let monkeytype-readme = fs.readFileSync('monkeytype-readme.svg');
+            const filePath = '${{ github.workspace }}/monkeytype-readme.svg';
+            fs.writeFileSync(filePath, monkeytype-readme);
+          
+      - name: Configure git
         run: |
-          git config --local user.email "lin0905580802@gmail.com"
-          git config --local user.name "ridemountainpig"
-          git add monkeytype-readme.svg
-          git commit -m "Add monkeytype-readme.svg"
-          git push origin monkeytype-readme
+          git config --global user.name "ridemountainpig"
+          git config --global user.email "lin0905580802@gmail.com"
+          
+      - name: Commit and push changes
+        run: |
+          if git diff-index --quiet HEAD --; then
+            echo "No changes detected."
+          else
+            git add .
+            git commit -m "feat: update monkeytype readme svg"
+          fi
+        continue-on-error: true
+          
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          branch: monkeytype-readme
+          github_token: ${{ secrets.GITHUB_TOKEN }}
