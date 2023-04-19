@@ -29,7 +29,7 @@ jobs:
       - name: Download SVG
         run: |
           mkdir public
-          curl -o public/monkeytype-readme.svg https://monkeytype-readme.repl.co/generate-svg/yencheng0110/nord_light
+          curl -o public/monkeytype-readme.svg https://monkeytype-readme.repl.co/generate-svg/davidho0403/nord_light/leaderboards
 
       - name: push monkeytype-readme.svg to the monkeytype-readme-dev branch
         uses: crazy-max/ghaction-github-pages@v2.5.0
