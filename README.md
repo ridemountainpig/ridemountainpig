@@ -59,7 +59,7 @@ Here are some ideas to get you started:
 -->
 
 <a href="https://monkeytype.com/profile/yencheng0110">
-  <img src="https://monkeytype-readme.repl.co/generate-svg/yencheng0110/nord_light" alt="My Monkeytype profile" />
+  <img src="https://raw.githubusercontent.com/ridemountainpig/ridemountainpig/monkeytype-readme/monkeytype-readme.svg" alt="My Monkeytype profile" />
 </a>
 
 ![](https://raw.githubusercontent.com/ridemountainpig/ridemountainpig/output/github-contribution-grid-snake.svg)
