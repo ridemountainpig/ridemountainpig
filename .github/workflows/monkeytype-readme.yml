@@ -21,6 +21,9 @@ jobs:
         run: |
           mkdir public
           curl -o public/monkeytype-readme.svg https://monkeytype-readme.repl.co/generate-svg/yencheng0110/nord_light
+          curl -o public/monkeytype-readme-lb.svg https://monkeytype-readme.repl.co/generate-svg/yencheng0110/nord_light/leaderboards
+          curl -o public/monkeytype-readme-pb.svg https://monkeytype-readme.repl.co/generate-svg/yencheng0110/nord_light/personalbests
+          curl -o public/monkeytype-readme-lb-pb.svg https://monkeytype-readme.repl.co/generate-svg/yencheng0110/nord_light/leaderboards/personalbests
 
       - name: push monkeytype-readme.svg to the monkeytype-readme branch
         uses: crazy-max/ghaction-github-pages@v2.5.0
