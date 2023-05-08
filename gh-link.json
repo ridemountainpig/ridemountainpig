@@ -9,8 +9,14 @@
     {
       "title": "FCU Course Search",
       "description": "FCU Course Search",
-      "url": "https://fcu-course-search.ridemountainpig.repl.co/",
+      "url": "https://fcu-course-search.repl.co/",
       "icon": "https://github.com/ridemountainpig/fcu-course-search/blob/main/static/images/FF.png?raw=true"
+    },
+    {
+      "title": "MonkeyType Readme",
+      "description": "Share MonkeyType Story With The World",
+      "url": "https://monkeytype-readme.repl.co/",
+      "icon": "https://github.com/ridemountainpig/monkeytype-readme/blob/master/public/image/stupidMonkeyIcon.png?raw=true"
     },
     {
       "title": "MonkeyType Chrome Extension",
