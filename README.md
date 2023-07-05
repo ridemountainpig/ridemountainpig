@@ -58,14 +58,14 @@ Here are some ideas to get you started:
 [![ridemountainpig Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ridemountainpig&count_private=true&show_icons=true&include_all_commits=true)](https://github.com/ridemountainpig)
 -->
 
-<a href="https://github.com/ridemountainpig/ridemountainpig">
-  <img src="https://raw.githubusercontent.com/ridemountainpig/ridemountainpig/github-status/github-status.svg" width="500" alt="My github  profile" />
+<a href="https://github.com/ridemountainpig/monkeytype-readme">
+  <img src="https://raw.githubusercontent.com/ridemountainpig/ridemountainpig/monkeytype-readme/monkeytype-readme-lb.svg" alt="My Monkeytype profile" />
 </a>
 
 <br/>
 
-<a href="https://github.com/ridemountainpig/monkeytype-readme">
-  <img src="https://raw.githubusercontent.com/ridemountainpig/ridemountainpig/monkeytype-readme/monkeytype-readme-lb.svg" alt="My Monkeytype profile" />
+<a href="https://github.com/ridemountainpig/ridemountainpig">
+  <img src="https://raw.githubusercontent.com/ridemountainpig/ridemountainpig/github-status/github-status.svg" width="500" alt="My github  profile" />
 </a>
 
 ![](https://raw.githubusercontent.com/ridemountainpig/ridemountainpig/output/github-contribution-grid-snake.svg)
