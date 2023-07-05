@@ -1,0 +1,34 @@
+name: generate github status svg
+
+on:
+  schedule:
+    - cron: "0 */6 * * *" # every 12 hours
+  workflow_dispatch:
+
+jobs:
+  download-svg:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16.x'
+
+      - name: Download SVG
+        run: |
+            mkdir public
+            DATE=$(date +'%Y-%m-%d')
+            HOUR=$(date +'%H')
+            URL="https://github-readme-stats.vercel.app/api?username=ridemountainpig&show_icons=true&bg_color=eceff4&title_color=8fbcbb&text_color=6a7791&icon_color=8fbcbb&border_radius=1rem&hide_border=true&date=$DATE&hour=$HOUR"
+            curl -o "public/github-status.svg" "$URL"
+
+      - name: push github-status.svg to the github-status branch
+        uses: crazy-max/ghaction-github-pages@v2.5.0
+        with:
+          target_branch: github-status
+          build_dir: public
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
