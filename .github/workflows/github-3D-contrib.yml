@@ -1,11 +1,9 @@
 name: GitHub-Profile-3D-Contrib
 
 on:
-    push:
-        branches: [readme-dev]
-#   schedule:
-#     - cron: "0 */6 * * *" # every 12 hours
-    workflow_dispatch:
+  push:
+    branches: [readme-dev]
+  workflow_dispatch:
 
 jobs:
   build:
@@ -13,16 +11,19 @@ jobs:
     name: generate-github-profile-3d-contrib
     steps:
       - uses: actions/checkout@v3
-      
+
       # Create a new branch and switch to it
       - name: Create New Branch
         run: |
           git checkout -b github-3D-contrib
-      
+          git push --set-upstream origin github-3D-contrib
+
       - uses: yoshi389111/github-profile-3d-contrib@0.7.1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
+      
+      # Commit and Push on the new branch
       - name: Commit & Push
         run: |
           git config user.name github-actions
