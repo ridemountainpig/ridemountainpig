@@ -1,10 +1,8 @@
 name: generate github status svg
 
 on:
-    push:
-        branches: [readme-dev]
-#   schedule:
-#     - cron: "0 */6 * * *" # every 12 hours
+    schedule:
+        - cron: "0 */6 * * *"
     workflow_dispatch:
 
 jobs:
