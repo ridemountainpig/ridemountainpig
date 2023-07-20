@@ -11,13 +11,6 @@ jobs:
     name: generate-github-profile-3d-contrib
     steps:
       - uses: actions/checkout@v3
-
-      # Create a new branch and switch to it
-      - name: Create New Branch
-        run: |
-          git checkout -b github-3D-contrib
-          git push --set-upstream origin github-3D-contrib
-
       - uses: yoshi389111/github-profile-3d-contrib@0.7.1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -27,7 +20,8 @@ jobs:
       - name: Commit & Push
         run: |
           git config user.name github-actions
-          git config user.email github-actions@github.com
+          git config user.email github-actions[bot]@users.noreply.github.com
           git add -A .
-          git commit -m "generated"
-          git push origin github-3D-contrib
+          if git commit -m "generated"; then
+            git push
+          fi
