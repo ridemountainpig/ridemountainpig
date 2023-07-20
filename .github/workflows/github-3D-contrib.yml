@@ -30,4 +30,4 @@ jobs:
           git config user.email github-actions@github.com
           git add -A .
           git commit -m "generated"
-          git push github-3D-contrib
+          git push origin github-3D-contrib
