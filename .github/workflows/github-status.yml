@@ -25,9 +25,9 @@ jobs:
             DATE=$(date +'%Y-%m-%d')
             HOUR=$(date +'%H')
             curl -o "public/github-status.svg" "https://github-readme-stats.vercel.app/api?username=ridemountainpig&show_icons=true&bg_color=eceff4&title_color=8fbcbb&text_color=6a7791&icon_color=8fbcbb&border_radius=1rem&hide_border=true&date=$DATE&hour=$HOUR"
-            curl -o "public/github-readme-activity-graph" "https://github-readme-activity-graph.vercel.app/graph?username=ridemountainpig&show_icons=true&bg_color=eceff4&title_color=8fbcbb&text_color=6a7791&icon_color=8fbcbb&border_radius=1rem&hide_border=true&date=$DATE&hour=$HOUR"
-            curl -o "github-profile-summary-cards" "https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ridemountainpig&theme=nord_bright"
-            curl -o "github-readme-stats" "https://github-readme-stats.vercel.app/api/top-langs/?username=ridemountainpig&show_icons=true&bg_color=eceff4&title_color=8fbcbb&text_color=6a7791&icon_color=8fbcbb&border_radius=1rem&hide_border=true&date=$DATE&hour=$HOUR"
+            curl -o "public/github-readme-activity-graph.svg" "https://github-readme-activity-graph.vercel.app/graph?username=ridemountainpig&show_icons=true&bg_color=eceff4&title_color=8fbcbb&text_color=6a7791&icon_color=8fbcbb&border_radius=1rem&hide_border=true&date=$DATE&hour=$HOUR"
+            curl -o "github-profile-summary-cards.svg" "https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ridemountainpig&theme=nord_bright"
+            curl -o "github-readme-stats.svg" "https://github-readme-stats.vercel.app/api/top-langs/?username=ridemountainpig&show_icons=true&bg_color=eceff4&title_color=8fbcbb&text_color=6a7791&icon_color=8fbcbb&border_radius=1rem&hide_border=true&date=$DATE&hour=$HOUR"
 
       - name: push github-status.svg to the github-status branch
         uses: crazy-max/ghaction-github-pages@v2.5.0
