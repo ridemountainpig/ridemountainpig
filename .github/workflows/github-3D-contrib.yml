@@ -1,8 +1,11 @@
 name: GitHub-Profile-3D-Contrib
 
 on:
-  push:
+    push:
         branches: [readme-dev]
+#   schedule:
+#     - cron: "0 */6 * * *" # every 12 hours
+    workflow_dispatch:
 
 jobs:
   build:
@@ -20,4 +23,4 @@ jobs:
           git config user.email github-actions@github.com
           git add -A .
           git commit -m "generated"
-          git push
+          git push origin github-3D-contrib
