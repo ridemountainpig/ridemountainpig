@@ -12,8 +12,9 @@ jobs:
 
     steps:
       # generates a snake game from a github user (<github_user_name>) contributions graph, output a svg animation at <svg_out_path>
-      - name: generate github-contribution-grid-snake.svg
-        uses: Platane/snk@master
+      - name: generate-snake-game-from-github-contribution-grid
+        uses: Platane/snk@v3.0.0
+
         with:
           github_user_name: ridemountainpig
           svg_out_path: dist/github-contribution-grid-snake.svg
