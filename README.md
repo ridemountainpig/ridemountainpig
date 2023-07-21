@@ -68,4 +68,4 @@ Here are some ideas to get you started:
   <img src="https://raw.githubusercontent.com/ridemountainpig/ridemountainpig/github-status/github-status.svg" width="500" alt="My github  profile" />
 </a>
 
-![](https://raw.githubusercontent.com/ridemountainpig/ridemountainpig/output/github-contribution-grid-snake.svg)
+![](https://raw.githubusercontent.com/ridemountainpig/ridemountainpig/snake/github-snake.svg)
