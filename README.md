@@ -59,7 +59,7 @@ Here are some ideas to get you started:
 -->
 
 <a href="https://github.com/ridemountainpig/monkeytype-readme">
-  <img src="https://raw.githubusercontent.com/ridemountainpig/ridemountainpig/monkeytype-readme/monkeytype-readme-lb.svg" alt="My Monkeytype profile" />
+  <img src="https://raw.githubusercontent.com/ridemountainpig/ridemountainpig/monkeytype-readme/ridemountainpig-monkeytype-readme-lb.svg" alt="My Monkeytype profile" />
 </a>
 
 <br/>
