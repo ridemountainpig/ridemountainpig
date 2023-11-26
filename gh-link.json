@@ -9,20 +9,20 @@
     {
       "title": "FCU Course Search",
       "description": "FCU Course Search",
-      "url": "https://fcu-course-search.repl.co/",
+      "url": "https://fcu-course-search.zeabur.app/",
       "icon": "https://github.com/ridemountainpig/fcu-course-search/blob/main/static/images/FF.png?raw=true"
     },
     {
       "title": "MonkeyType Readme",
       "description": "Share MonkeyType Story With The World",
-      "url": "https://monkeytype-readme.repl.co/",
+      "url": "https://monkeytype-readme.zeabur.app/",
       "icon": "https://github.com/ridemountainpig/monkeytype-readme/blob/master/public/image/stupidMonkeyIcon.png?raw=true"
     },
     {
       "title": "MonkeyType Chrome Extension",
       "description": "MonkeyType Chrome Extension",
       "url": "https://chrome.google.com/webstore/detail/monkeytype-extension/ekkfdhandgcjdkdlfppjkedoaiiccdaa?hl=zh-TW",
-      "icon": "https://github.com/ridemountainpig/monkeyType-chrome-extension/blob/master/icon.png?raw=true"
+      "icon": "https://raw.githubusercontent.com/ridemountainpig/monkeytype-icon/master/monkeytype-icon/svg/serika_dark.svg"
     }
   ]
 }
