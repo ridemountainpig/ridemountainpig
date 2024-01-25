@@ -1,0 +1,26 @@
+name: generate coffee diary svg
+
+on:
+  schedule:
+    - cron: "0 */24 * * *" # every 12 hours
+  workflow_dispatch:
+
+jobs:
+  download-svg:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "16.x"
+
+      - name: Generate Coffee Diary SVG
+        uses: ridemountainpig/coffee-diary@v1.0.0
+        with:
+          username: ridemountainpig
+          target-branch: coffee-diary
+          github-token: ${{ secrets.GITHUB_TOKEN }}
