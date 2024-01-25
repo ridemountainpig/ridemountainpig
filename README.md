@@ -1,5 +1,6 @@
 <!-- # Yen Cheng 🧑🏻‍💻 -->
 
+<!--
 ```
 ██╗░░░██╗███████╗███╗░░██╗  ░█████╗░██╗░░██╗███████╗███╗░░██╗░██████╗░
 ╚██╗░██╔╝██╔════╝████╗░██║  ██╔══██╗██║░░██║██╔════╝████╗░██║██╔════╝░
@@ -8,10 +9,18 @@
 ░░░██║░░░███████╗██║░╚███║  ╚█████╔╝██║░░██║███████╗██║░╚███║╚██████╔╝
 ░░░╚═╝░░░╚══════╝╚═╝░░╚══╝  ░╚════╝░╚═╝░░╚═╝╚══════╝╚═╝░░╚══╝░╚═════╝░
 ```
+-->
 
 - **🇹🇼 Developer from Taiwan**<br/>
 - **☕️ Coding with coffee**<br/>
 > **Coffee ☕️ = new Coffee();**<br/>
+
+<a href="https://github.com/ridemountainpig/coffee-diary">
+  <img src="https://coffee-diary.com/api/coffeeDiarySvg" alt="Coffee Diary" />
+</a>
+
+</br>
+</br>
 
 <!-- ## I'm boar rider that ride mountain pig 🐾 🐾 🐾
 ```
@@ -58,7 +67,7 @@ Here are some ideas to get you started:
 [![ridemountainpig Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ridemountainpig&count_private=true&show_icons=true&include_all_commits=true)](https://github.com/ridemountainpig)
 -->
 
-<a href="https://github.com/ridemountainpig/monkeytype-readme">
+<a href="https://github.com/monkeytype-hub/monkeytype-readme">
   <img src="https://raw.githubusercontent.com/ridemountainpig/ridemountainpig/monkeytype-readme/ridemountainpig-monkeytype-readme-lb.svg" alt="My Monkeytype profile" />
 </a>
 
@@ -68,4 +77,6 @@ Here are some ideas to get you started:
   <img src="https://raw.githubusercontent.com/ridemountainpig/ridemountainpig/github-status/github-status.svg" width="500" alt="My github  profile" />
 </a>
 
+<!--
 ![](https://raw.githubusercontent.com/ridemountainpig/ridemountainpig/snake/github-snake.svg)
+-->
