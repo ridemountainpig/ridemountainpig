@@ -7,10 +7,16 @@
       "icon": "https://cdn-icons-png.flaticon.com/512/25/25231.png"
     },
     {
-      "title": "My MonkeyType Readme",
-      "description": "My MonkeyType Readme",
-      "url": "https://monkeytype-readme.zeabur.app/ridemountainpig/comfy",
-      "icon": "https://raw.githubusercontent.com/ridemountainpig/monkeytype-icon/master/monkeytype-icon/svg/comfy.svg"
+      "title": "Coffee Diary",
+      "description": "Begin crafting your coffee diary, with a JSON file, chronicling the unique path you traverse with each cup.",
+      "url": "https://coffee-diary.com/",
+      "icon": "https://raw.githubusercontent.com/ridemountainpig/coffee-diary/main/app/favicon.ico"
+    },
+    {
+      "title": "MonkeyType Readme",
+      "description": "Share MonkeyType Story With The World",
+      "url": "https://monkeytype-readme.com/",
+      "icon": "https://github.com/ridemountainpig/monkeytype-readme/blob/master/public/image/stupidMonkeyIcon.png?raw=true"
     },
     {
       "title": "FCU Course Search",
@@ -18,17 +24,5 @@
       "url": "https://fcu-course-search.zeabur.app/",
       "icon": "https://github.com/ridemountainpig/fcu-course-search/blob/main/static/images/FF.png?raw=true"
     },
-    {
-      "title": "MonkeyType Readme",
-      "description": "Share MonkeyType Story With The World",
-      "url": "https://monkeytype-readme.zeabur.app/",
-      "icon": "https://github.com/ridemountainpig/monkeytype-readme/blob/master/public/image/stupidMonkeyIcon.png?raw=true"
-    },
-    {
-      "title": "MonkeyType Chrome Extension",
-      "description": "MonkeyType Chrome Extension",
-      "url": "https://chrome.google.com/webstore/detail/monkeytype-extension/ekkfdhandgcjdkdlfppjkedoaiiccdaa?hl=zh-TW",
-      "icon": "https://raw.githubusercontent.com/ridemountainpig/monkeytype-icon/master/monkeytype-icon/svg/serika_dark.svg"
-    }
   ]
 }
