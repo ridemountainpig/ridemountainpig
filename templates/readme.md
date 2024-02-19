@@ -9,19 +9,7 @@
 ░░░╚═╝░░░╚══════╝╚═╝░░╚══╝  ░╚════╝░╚═╝░░╚═╝╚══════╝╚═╝░░╚══╝░╚═════╝░
 ```
 
-
-```json
-{
-    "Yen Cheng Lin's GitHub Stats, Rank: A": {
-        "Total Stars Earned": "91 ⭐️",
-        "Total Commits in 2024": "622 🔥",
-        "Total PRs": "155 🚀",
-        "Total Issues": "61 📬",
-        "Contributed to (last year)": "16 🤝"
-    }
-}
-```
-
+{{github_json_stats}}
 
 - **🇹🇼 Developer from Taiwan**<br/>
 - **☕️ Coding with coffee**<br/>
