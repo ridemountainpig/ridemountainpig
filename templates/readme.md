@@ -19,8 +19,6 @@
   <img src="https://coffee-diary.com/api/coffeeDiarySvg" alt="Coffee Diary" />
 </a>
 
-&nbsp
-
 <a href="https://github.com/ridemountainpig/coffee-diary">
   <img src="https://raw.githubusercontent.com/ridemountainpig/ridemountainpig/coffee-diary/ridemountainpig-coffee-diary.svg" alt="Coffee Diary" />
 </a>
