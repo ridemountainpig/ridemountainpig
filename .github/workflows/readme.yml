@@ -1,50 +1,25 @@
-name: Readme
+name: Generate Github Json Stats
 
 on:
   schedule:
-      - cron: "0 */12 * * *"
+    - cron: "0 */12 * * *"
   workflow_dispatch:
 
 jobs:
-  build:
+  generate-readme:
     runs-on: macos-14
 
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v4
+      - name: Checkout code
+        uses: actions/checkout@v4
 
-    - name: Set up Python
-      uses: actions/setup-python@v5
-      with:
-        python-version: '3.10'
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
 
-    - name: Install dependencies
-      run: |
-        pip install requests
-        pip install beautifulsoup4
-
-    - name: Run readme code
-      run: |
-        python main.py
-
-    - name: Configure git
-      run: |
-          git config --global user.name github-actions
-          git config --global user.email github-actions[bot]@users.noreply.github.com
-
-    - name: Commit and push changes
-      run: |
-          if git diff-index --quiet HEAD --; then
-            echo "No changes detected."
-          else
-            git add .
-            git commit -m "ci: update readme"
-          fi
-      continue-on-error: true
-
-    - name: Push changes
-      uses: ad-m/github-push-action@master
-      with:
-          branch: main
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          
+      - name: Github Stats Json Style
+        uses: ridemountainpig/github-stats-json-style@v1.0.0
+        with:
+          username: ridemountainpig
+          push-branch: github-stats-action-test
