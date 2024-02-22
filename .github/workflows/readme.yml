@@ -22,4 +22,4 @@ jobs:
         uses: ridemountainpig/github-stats-json-style@v1.0.0
         with:
           username: ridemountainpig
-          push-branch: github-stats-action-test
+          push-branch: main
