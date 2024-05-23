@@ -17,7 +17,7 @@
         "Total Commits in 2024": "556 🔥",
         "Total PRs": "165 🚀",
         "Total Issues": "61 📬",
-        "Contributed to (last year)": "17 🤝"
+        "Contributed to (last year)": "16 🤝"
     }
 }
 ```
