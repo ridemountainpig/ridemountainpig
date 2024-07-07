@@ -1,21 +1,21 @@
 <!-- # Yen Cheng 🧑🏻‍💻 -->
 
-#### Hi there, I'm Yen Cheng Lin 🧑🏻‍💻.
+### Hi there, I'm Yen Cheng Lin 🧑🏻‍💻.
 
-🇹🇼 Full-stack Developer from Taiwan<br/>
-✨ Passionate Creator of Amazing Things<br/>
-🤝 Open Source Contributor<br/>
-☕️ Coffee-fueled Coder<br/>
+**🇹🇼 Full-stack Developer from Taiwan**<br/>
+**✨ Passionate Creator of Amazing Things**<br/>
+**🤝 Open Source Contributor**<br/>
+**☕️ Coffee-fueled Coder**<br/>
 > **Coffee ☕️ = new Coffee();**<br/>
 
-#### Contribution
+### 💭 Contribution
 
 
 ```json
 {
     "Yen Cheng Lin's GitHub Stats, Rank: A": {
         "Total Stars Earned": "120 ⭐️",
-        "Total Commits in 2024": "525 🔥",
+        "Total Commits in 2024": "526 🔥",
         "Total PRs": "172 🚀",
         "Total Issues": "61 📬",
         "Contributed to (last year)": "16 🤝"
@@ -24,13 +24,13 @@
 ```
     
 
-#### Links
+### 💭 Things I created
 
 **Coffee Diary:** Life is like a cup of coffee; it's all in how you make it or take it. Write down your personalized coffee journal with a JSON file, visualized with SVG.
 
 ☕ Check out my coffee diary: [coffee-diary.com/ridemountainpig](https://www.coffee-diary.com/ridemountainpig)
 
-#### About me
+### 💭 About me
 [![Linkedin](/badges/LinkedIn.svg)](https://www.linkedin.com/in/%E5%BD%A5%E6%88%90-%E6%9E%97-22948823a/)
 [![Twitter](/badges/Twitter.svg)](https://twitter.com/ridemountainpig)
 [![Raycast](/badges/Raycast.svg)](https://www.raycast.com/ridemountainpig)
