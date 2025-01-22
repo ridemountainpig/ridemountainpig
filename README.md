@@ -17,8 +17,8 @@
         "Total Stars Earned": "156 ⭐️",
         "Total Commits in 2025": "386 🔥",
         "Total PRs": "253 🚀",
-        "Total Issues": "18 📬",
-        "Contributed to (last year)": "11 🤝"
+        "Total Issues": "19 📬",
+        "Contributed to (last year)": "12 🤝"
     }
 }
 ```
