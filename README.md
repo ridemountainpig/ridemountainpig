@@ -15,8 +15,8 @@
 {
     "Yen Cheng Lin's GitHub Stats, Rank: A": {
         "Total Stars Earned": "170 ⭐️",
-        "Total Commits in 2025": "363 🔥",
-        "Total PRs": "288 🚀",
+        "Total Commits in 2025": "364 🔥",
+        "Total PRs": "289 🚀",
         "Total Issues": "19 📬",
         "Contributed to (last year)": "14 🤝"
     }
