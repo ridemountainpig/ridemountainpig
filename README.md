@@ -18,7 +18,7 @@
         "Total Commits in 2025": "353 🔥",
         "Total PRs": "308 🚀",
         "Total Issues": "19 📬",
-        "Contributed to (last year)": "15 🤝"
+        "Contributed to (last year)": "14 🤝"
     }
 }
 ```
