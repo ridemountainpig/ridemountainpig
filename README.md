@@ -14,7 +14,7 @@
 ```json
 {
     "Yen Cheng Lin's GitHub Stats, Rank: A": {
-        "Total Stars Earned": "243 ⭐️",
+        "Total Stars Earned": "244 ⭐️",
         "Total Commits  (last year)": "366 🔥",
         "Total PRs": "353 🚀",
         "Total Issues": "19 📬",
