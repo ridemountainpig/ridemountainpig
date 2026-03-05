@@ -18,7 +18,7 @@
         "Total Commits  (last year)": "510 🔥",
         "Total PRs": "509 🚀",
         "Total Issues": "62 📬",
-        "Contributed to (last year)": "20 🤝"
+        "Contributed to (last year)": "19 🤝"
     }
 }
 ```
